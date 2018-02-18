@@ -1,0 +1,77 @@
+<section class="py-2">
+  <div class="row">
+    <div class="col-md-4 text-center">
+      <h1 class="display-3 mt-3 pt-5">
+        Belt Blue
+      </h1>
+      <p class="lead">Get blue belt for rs100</p>
+      <img src="/img/book.png" alt=""class="img-fluid">
+
+      <form action="/charge" method="POST">
+          <script
+            src="https://checkout.stripe.com/checkout.js"
+            class="stripe-button"
+            data-key="pk_test_DwLCDS2dpXqYsSMIep0SH8AN"
+            data-amount="2500"
+            data-name="Web development chat"
+            data-description="Chat service by pranav"
+            data-locale="auto">
+          </script>
+          <script>
+            document.getElementsByClassName('stripe-button-el')[0].style.display='none'
+          </script>
+          <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase for $25</button>
+      </form>
+
+    </div>
+
+    <div class="col-md-4 text-center">
+      <h1 class="display-3 mt-3 pt-5">
+        Belt green
+      </h1>
+      <p class="lead">Get Green belt for rs200</p>
+      <img src="/img/book.png" alt=""class="img-fluid">
+
+      <form action="/charge" method="POST">
+          <script
+            src="https://checkout.stripe.com/checkout.js"
+            class="stripe-button"
+            data-key="pk_test_DwLCDS2dpXqYsSMIep0SH8AN"
+            data-amount="3000"
+            data-name="Web development e Book"
+            data-description="Ebook return by pranav"
+            data-locale="auto">
+          </script>
+          <script>
+            document.getElementsByClassName('stripe-button-el')[1].style.display='none'
+          </script>
+          <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase for $30</button>
+      </form>
+    </div>
+
+    <div class="col-md-4 text-center">
+      <h1 class="display-3 mt-3 pt-5">
+        Belt black
+      </h1>
+      <p class="lead">Get Black belt for rs500</p>
+      <img src="/img/book.png" alt=""class="img-fluid">
+
+      <form action="/charge" method="POST">
+          <script
+            src="https://checkout.stripe.com/checkout.js"
+            class="stripe-button"
+            data-key="pk_test_DwLCDS2dpXqYsSMIep0SH8AN"
+            data-amount="5000"
+            data-name="Web development e Book"
+            data-description="Ebook return by pranav"
+            data-locale="auto">
+          </script>
+          <script>
+            document.getElementsByClassName('stripe-button-el')[2].style.display='none'
+          </script>
+          <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase for $50</button>
+      </form>
+
+    </div>
+  </div>
+</section>
